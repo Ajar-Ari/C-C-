@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a[10];
+    int i;
+    int sum = 0;
+
+    for (i = 0; i < 10; i++)
+    {
+        scanf("%d", &a[i]);
+        sum += a[i];
+    }
+    printf("sum = %d\n", sum);
+    printf("avg = %.1f\n", sum / 10.0);
+
+    return 0;
+}
